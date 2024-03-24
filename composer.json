@@ -15,8 +15,16 @@
       "Vanchisto\\Validator\\": "src/"
     }
   },
+  "config": {
+    "sort-packages": true
+  },
   "minimum-stability": "stable",
+  "prefer-stable": true,
   "require": {
     "php": "^8.3"
+  },
+  "require-dev": {
+    "vanchisto/php-code-style": "dev-master",
+    "vanchisto/php-testing": "dev-master"
   }
 }
