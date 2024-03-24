@@ -1,0 +1,22 @@
+{
+  "name": "vanchisto/php-validator",
+  "description": "PHP Validator",
+  "type": "library",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "vanchisto@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vanchisto\\Validator\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.3"
+  }
+}
