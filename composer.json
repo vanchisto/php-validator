@@ -2,7 +2,10 @@
   "name": "vanchisto/php-validator",
   "description": "PHP Validator",
   "type": "library",
-  "keywords": [],
+  "keywords": [
+    "php",
+    "validator"
+  ],
   "license": "MIT",
   "authors": [
     {
@@ -15,6 +18,12 @@
       "Vanchisto\\Validator\\": "src/"
     }
   },
+  "scripts": {
+    "test": [
+      "php-cs-fixer fix",
+      "phpcs"
+    ]
+  },
   "config": {
     "sort-packages": true
   },
@@ -24,6 +33,7 @@
     "php": "^8.3"
   },
   "require-dev": {
+    "roave/security-advisories": "dev-latest",
     "vanchisto/php-code-style": "dev-master",
     "vanchisto/php-testing": "dev-master"
   }

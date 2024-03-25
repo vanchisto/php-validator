@@ -1,9 +1,10 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Vanchisto\Validator\Traits;
 
-trait StringTrait
+trait StrTrait
 {
     /**
      * @param mixed $value
