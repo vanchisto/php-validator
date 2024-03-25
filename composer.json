@@ -1,0 +1,40 @@
+{
+  "name": "vanchisto/php-validator",
+  "description": "PHP Validator",
+  "type": "library",
+  "keywords": [
+    "php",
+    "validator"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "vanchisto@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vanchisto\\Validator\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "php-cs-fixer fix",
+      "phpcs"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.3"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "vanchisto/php-code-style": "dev-master",
+    "vanchisto/php-testing": "dev-master"
+  }
+}
