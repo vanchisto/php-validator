@@ -8,7 +8,7 @@ trim_trailing_whitespace = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.{json,xml,xml.dist,yml}]
+[*.{json,neon,neon.dist,xml,xml.dist,yml}]
 indent_size = 2
 
 [Makefile]

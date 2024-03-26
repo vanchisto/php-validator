@@ -161,16 +161,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "ced299686f41dce890debac69273b47ffe98a40c"
+                "reference": "4f988f8fdf580d53bdb2d1278fe93d1ed5462255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ced299686f41dce890debac69273b47ffe98a40c",
-                "reference": "ced299686f41dce890debac69273b47ffe98a40c",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/4f988f8fdf580d53bdb2d1278fe93d1ed5462255",
+                "reference": "4f988f8fdf580d53bdb2d1278fe93d1ed5462255",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,7 @@
             "require-dev": {
                 "phpstan/phpstan": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.1",
-                "symfony/phpunit-bridge": "^6.0"
+                "phpunit/phpunit": "^8.5 || ^9.6 || ^10.5"
             },
             "type": "library",
             "autoload": {
@@ -205,9 +205,9 @@
                 "performance"
             ],
             "support": {
-                "irc": "irc://irc.freenode.org/composer",
+                "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/xdebug-handler/issues",
-                "source": "https://github.com/composer/xdebug-handler/tree/3.0.3"
+                "source": "https://github.com/composer/xdebug-handler/tree/3.0.4"
             },
             "funding": [
                 {
@@ -223,7 +223,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T21:32:43+00:00"
+            "time": "2024-03-26T18:29:49+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
@@ -1196,12 +1196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "98cbbfa55bafb0368a60a5fd6206f07c9dd782eb"
+                "reference": "430219a8462bb5c66c1a0c118239e9c3ab5179db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/98cbbfa55bafb0368a60a5fd6206f07c9dd782eb",
-                "reference": "98cbbfa55bafb0368a60a5fd6206f07c9dd782eb",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/430219a8462bb5c66c1a0c118239e9c3ab5179db",
+                "reference": "430219a8462bb5c66c1a0c118239e9c3ab5179db",
                 "shasum": ""
             },
             "conflict": {
@@ -1612,7 +1612,7 @@
                 "pimcore/demo": "<10.3",
                 "pimcore/ecommerce-framework-bundle": "<1.0.10",
                 "pimcore/perspective-editor": "<1.5.1",
-                "pimcore/pimcore": "<11.1.1",
+                "pimcore/pimcore": "<11.1.6.1-dev|>=11.2,<11.2.2",
                 "pixelfed/pixelfed": "<0.11.11",
                 "plotly/plotly.js": "<2.25.2",
                 "pocketmine/bedrock-protocol": "<8.0.2",
@@ -1931,7 +1931,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-25T20:04:17+00:00"
+            "time": "2024-03-26T20:04:27+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -4267,12 +4267,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vanchisto/php-code-style.git",
-                "reference": "3c65974cd50bab8266a4cd9e96a6624372b0cb42"
+                "reference": "564983a191d13fafae16182f23f93d060e175f65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vanchisto/php-code-style/zipball/3c65974cd50bab8266a4cd9e96a6624372b0cb42",
-                "reference": "3c65974cd50bab8266a4cd9e96a6624372b0cb42",
+                "url": "https://api.github.com/repos/vanchisto/php-code-style/zipball/564983a191d13fafae16182f23f93d060e175f65",
+                "reference": "564983a191d13fafae16182f23f93d060e175f65",
                 "shasum": ""
             },
             "require": {
@@ -4315,7 +4315,7 @@
                 "issues": "https://github.com/vanchisto/php-code-style/issues",
                 "source": "https://github.com/vanchisto/php-code-style/tree/master"
             },
-            "time": "2024-03-25T21:09:12+00:00"
+            "time": "2024-03-26T20:33:46+00:00"
         },
         {
             "name": "vanchisto/php-testing",
@@ -4323,18 +4323,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vanchisto/php-testing.git",
-                "reference": "85c0c4bd8d9ae9ce3ab3913e5ef916c24b4cbc8b"
+                "reference": "291f562c87902590ed81fd43fd5e1841a6a87065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vanchisto/php-testing/zipball/85c0c4bd8d9ae9ce3ab3913e5ef916c24b4cbc8b",
-                "reference": "85c0c4bd8d9ae9ce3ab3913e5ef916c24b4cbc8b",
+                "url": "https://api.github.com/repos/vanchisto/php-testing/zipball/291f562c87902590ed81fd43fd5e1841a6a87065",
+                "reference": "291f562c87902590ed81fd43fd5e1841a6a87065",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.3",
-                "phpstan/phpstan": "^1.10",
-                "phpunit/phpunit": "^11.0"
+                "phpstan/phpstan": "^1.10.65",
+                "phpunit/phpunit": "^11.0.8"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-latest",
+                "vanchisto/php-code-style": "dev-master"
             },
             "default-branch": true,
             "type": "library",
@@ -4367,7 +4371,7 @@
                 "issues": "https://github.com/vanchisto/php-testing/issues",
                 "source": "https://github.com/vanchisto/php-testing/tree/master"
             },
-            "time": "2024-03-24T16:41:32+00:00"
+            "time": "2024-03-26T20:30:35+00:00"
         }
     ],
     "aliases": [],
